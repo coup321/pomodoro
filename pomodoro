@@ -101,7 +101,7 @@ def cli_timer(duration):
     print('\n')
 
 @modifiers.kwoargs('repeat', 'alarm', 'notif', 'timer')
-def main(work=60, rest=5, repeat=10, alarm=True, notif=False, timer=False):
+def main(work=60, rest=5, repeat=10, alarm=True, notif=False, timer=True):
     """
     work : int
         nb of minuntes of work
